@@ -17,7 +17,7 @@ Installation
 Omnipay is installed via [Composer](http://getcomposer.org/). To install, simply run:
 
 ```sh
-composer require nazka/sermepa-omnipay
+composer require "mendicm/sermepa-omnipa":"dev-master"
 ```
 
 Basic Usage
