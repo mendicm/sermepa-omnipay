@@ -1,20 +1,24 @@
 {
-  "name": "nazka/sermepa-omnipay",
-  "type": "symfony-bundle",
-  "description": "Sermepa (now Redsys) payment gateway implementation with omnipay",
-  "license": "GPLv2",
-  "authors": [
-    {
-      "name": "Javier Sampedro",
-      "email": "jsampedro77@gmail.com",
-      "homepage": "http://github.com/jsampedro77"
-    },
-    {
-      "name": "NitsNets Studio",
-      "email": "github@nitsnets.com",
-      "homepage": "http://www.nitsnets.com"
-    }
-  ],
+	"name": "mendicm/sermepa-omnipay",
+	"type": "symfony-bundle",
+	"description": "Sermepa (now Redsys) payment gateway implementation with omnipay",
+	"license": "GPLv2",
+	"authors": [
+	    {
+	        "name": "Javier Sampedro",
+	        "email": "jsampedro77@gmail.com",
+	        "homepage": "http://github.com/jsampedro77"
+	    },
+	    {
+	        "name": "NitsNets Studio",
+	        "email": "github@nitsnets.com",
+	        "homepage": "http://www.nitsnets.com"
+	    },
+	    {
+	        "name": "Carlos Mendieta",
+	        "email": "carlos.mendieta@sddbrandcare.com"
+	    }
+	],
   "minimum-stability": "stable",
   "require": {
     "php": ">=5.6",
