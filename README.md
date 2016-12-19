@@ -1,4 +1,4 @@
-Omnipay: RedSys
+Omnipay: RedSys (customized)
 ===============
 
 **RedSys driver for the Omnipay PHP payment processing library**
@@ -43,3 +43,9 @@ Additional Callback
 -----------
 Redsys has an additional callback ( Respuesta online ) that may be active in your redsys platform and therfore must be implemented. This new callback cannot follow the normal usage of Omnipay. 
 You need to implement checkCallbackResponse() and decodeCallbackResponse().
+
+Customizations
+--------------
+
+Now redirect modal is rendered from blade template (Laravel) and must be stored on resources/views/omnipay/redsys.blade.php
+Form action is stored on a $url variable and hidden fields on $fields (use {!! $fields !!} to print the fields html properly)
